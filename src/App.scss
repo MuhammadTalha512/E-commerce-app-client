@@ -1,0 +1,57 @@
+$primary: #1d3557;
+// @import "tailwindcss";
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+@import './scss/auth';
+@import './scss/Screen-loader';
+@import './scss//topbar';
+@import './scss//home-banner';
+@import './scss/dashboard';
+
+#root{
+display: flex;
+flex-direction: column;
+min-height: 100vh;
+}
+main{
+    flex: 1 0 auto;
+}
+
+.swiper-custom-btn {
+  position: absolute;
+  top: 45%;
+  z-index: 10;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: none;
+  background: #000;
+  color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.swiper-custom-btn:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 15px rgba(0,0,0,0.25);
+}
+
+.swiper-custom-btn.left {
+  left: -50px;
+}
+
+.swiper-custom-btn.right {
+  right: -50px;
+}
+
+@media (max-width: 768px) {
+  .swiper-custom-btn {
+    display: none; 
+    pointer-events: none; 
+    opacity: 0; 
+  }
+}
