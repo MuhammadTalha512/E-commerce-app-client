@@ -1,6 +1,5 @@
 {
   "version": 2,
-  "name": "e-commerce-app-client",
   "builds": [
     {
       "src": "package.json",
