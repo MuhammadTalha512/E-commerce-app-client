@@ -2,7 +2,8 @@ import React from 'react';
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import App from './App.jsx'
-import '@ant-design/v5-patch-for-react-19';
+import 'antd/dist/reset.css';
+import 'antd/dist/reset.css';
 import "./components/message.jsx"
 import { BrowserRouter } from 'react-router-dom'
 import AuthContextProvider from './contexts/AuthContext.jsx';
