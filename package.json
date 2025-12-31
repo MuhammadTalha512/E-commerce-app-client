@@ -4,13 +4,12 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-  "start": "react-scripts start",
-  "build": "react-scripts build",
-  "test": "react-scripts test",
-  "eject": "react-scripts eject"
-},
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
   "dependencies": {
-    "@ant-design/v5-patch-for-react-19": "^1.0.3",
+    "@ant-design/v5-patch-for-react-18": "^1.0.3",
     "@tailwindcss/vite": "^4.1.16",
     "animate.css": "^4.1.1",
     "antd": "^5.27.6",
@@ -19,8 +18,8 @@
     "bootstrap": "^5.3.8",
     "dayjs": "^1.11.19",
     "jodit-react": "^5.2.38",
-    "react": "^19.1.1",
-    "react-dom": "^19.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^5.5.0",
     "react-router-dom": "^7.9.4",
     "react-slick": "^0.31.0",
@@ -31,8 +30,8 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.36.0",
-    "@types/react": "^19.1.16",
-    "@types/react-dom": "^19.1.9",
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
     "@vitejs/plugin-react": "^5.0.4",
     "autoprefixer": "^10.4.22",
     "eslint": "^9.36.0",
