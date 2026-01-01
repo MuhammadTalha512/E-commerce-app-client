@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
-import '../node_modules/bootstrap/dist/js/bootstrap.bundle'
+import "bootstrap/dist/js/bootstrap.bundle.min.js";
+import "bootstrap/dist/css/bootstrap.min.css"
 import './App.scss'
 import Routes from './pages/Routes'
 import { useAuthContext } from './contexts/AuthContext'
